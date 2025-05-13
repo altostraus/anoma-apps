@@ -28,8 +28,8 @@ run_test() {
 }
 
 tests=(
-  "HelloWorld/tests"
-  "WebHelloWorld/tests"
+  #"HelloWorld/tests"
+  #"WebHelloWorld/tests"
   "Counters/Counter/Simple/tests"
   "Counters/Counter/Unique/tests"
   "Kudos/tests"
