@@ -22,7 +22,7 @@ increment
         mkCounter@{
           logic;
           nonce;
-          count := getCount currentCounter + 1;
+          count := getCount currentCounter + 2;
         };
 
     in
