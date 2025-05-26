@@ -2,7 +2,7 @@ name: Test anoma-apps
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, poke-lab ]
   pull_request:
   schedule:
     - cron: '0 5 * * *'
