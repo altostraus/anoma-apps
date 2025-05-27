@@ -88,6 +88,8 @@ $(nockma): $(juvix) $(anoma-build)
 	$(juvix-cmd) compile anoma $(juvix) -o $(nockma)
 
 $(proved): $(nockma) $(config)
+        $(juvix-cmd) --version
+        echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 	$(juvix-cmd) dev anoma -c $(config) prove $(nockma) -o $(proved)
 
 $(get-message-nockma): $(anoma-build) $(get-message-juvix)
